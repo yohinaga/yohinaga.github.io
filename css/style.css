@@ -319,14 +319,29 @@ span{
 /*	padding: 30px 0;*/
 }
 
-.date{
+.nichiidate{
 	display: block;
 	padding: 40px 40px 40px 0;
 }
 
+.heiseidate{
+	display: block;
+	padding: 40px 40.5px 40px 0;
+}
+
+.emplosdate{
+	display: block;
+	padding: 40px 40.5px 40px 0;
+}
+
 .samuraidate{
 	display: block;
-	padding: 40px 30.5px 40px 0;
+	padding: 40px 34px 40px 0;
+}
+
+.cosmodate{
+	display: block;
+	padding: 40px 39px 40px 0;
 }
 
 .careertext{
