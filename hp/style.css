@@ -1,0 +1,448 @@
+@charset "UTF-8";
+
+*,*::before,*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+content:"";
+display: block;
+clear: both;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+}
+
+li{
+	list-style-type: none;
+}
+
+/* ヘッダー */
+
+.container{
+	width: 100%;
+}
+
+.logo-ils{
+	display: block;
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	z-index: 1;
+}
+
+/* ナブ */
+
+.header-nav{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 40px auto;
+	color: #66605f;
+	font-family: 'Zen Maru Gothic', sans-serif;
+	font-size: 2rem;
+}
+
+.nav-items a{
+	display: block;
+	color: #000;
+	transition: 0.3s;
+}
+
+.nav-items a:hover{
+	color: #db7093;
+}
+
+/* メイン */
+
+.top-main{
+	width: 1170px;
+	margin: 100px auto 100px;
+}
+
+/* アーティクル */
+
+
+.top-main-article{
+	width: 760px;
+	float: right;
+
+}
+
+.article-box{
+	width: 760px;
+	background: #fff0f5;
+	padding: 10px;
+	background-image: url("images/background1.png");
+}
+
+.top-article-title{
+	font-size: 3rem;
+	color: #db7093;
+	letter-spacing: 30px;
+	text-align: center;
+	margin: 20px auto 50px;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight: Regular 400;
+}
+
+.article-text-box{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.article-left-box{
+	width: 280px;
+}
+
+.article-right-box{
+	width: 450px;
+	padding: 0 10px;
+	margin-bottom: 40px;
+}
+
+.top-article-img{
+	display: block;
+	width: 270px;
+	padding-right: 10px;
+	margin: 0 auto;
+}
+
+.top-article-content{
+	font-size: 1.5rem;
+	line-height: 1.8;
+	margin: 0 auto;
+	color: #778899;
+}
+
+
+/* 流れ */
+
+
+
+.article-bottom-title{
+
+	border: solid 1px #000;
+
+	font-size: 2rem;
+
+	text-align: center;
+
+	padding: 30px;
+
+	margin: 50px 0;
+
+	letter-spacing: 2px;
+
+}
+
+
+
+.article-bottom-items{
+
+	list-style-type: decimal;
+
+	font-size: 1.8rem;
+
+	background: #eee;
+
+	padding-top: 15px;
+
+	padding-bottom: 15px;
+
+	letter-spacing: 2px;
+
+}
+
+
+
+.article-bottom-num{
+
+	background: #db7093;
+
+	color: #fff;
+
+	padding: 5px 8px;
+
+	margin: 0 20px;
+
+}
+
+
+
+.article-bottom-text{
+
+	background: #fff;
+
+	font-size: 1.5rem;
+
+	padding: 30px;
+
+	line-height: 1.8;
+
+	font-family: 'M PLUS 1p', sans-serif;
+
+	color: #66605f;
+
+	border-left: solid 1px #778899;
+
+	margin: 20px 0;
+
+}
+
+
+
+/*　バナー　*/
+
+
+
+.top-article-banner{
+
+	margin: 20px 0;
+
+}
+
+.banner-box{
+	margin-top: 50px;	
+}
+
+/* page2 */
+.access-mainimg{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.top-article-title{
+	font-size: 3rem;
+	color: #db7093;
+	letter-spacing: 30px;
+	text-align: center;
+	margin: 20px auto 50px;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight: Regular 400;
+	padding-top: 30px;
+}
+
+.article-subtitle{
+	font-size: 1.5rem;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #66605f;
+	border-bottom: solid 2px #66605f;
+	padding:50px 0 10px 50px;
+	margin-bottom: 30px;
+}
+
+.access-main{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.access-article-theme{
+	font-size: 1.5rem;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #66605f;
+	padding-left: 80px;
+}
+
+.access-article-text{
+	font-size: 1.3rem;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #66605f;
+	padding-left: 80px;
+}
+
+.article-map{
+	display: block;
+	text-align: center;
+	margin: 0 auto 50px;
+}
+
+/* page3 */
+
+.contact-text{
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #66605f;
+	padding-top: 15px;
+}
+
+.contact{
+	padding: 80px 0 150px;
+}
+
+.contact-form{
+	font-size: 1.3rem;
+	width: 50%;
+	margin: 50px auto 0;
+}
+
+.contact-form input[type=text],
+.contact-form textarea{
+	display: block;
+	font-size: 1.3rem;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px solid rgba(219,112,147,1);
+	border-radius: 0;
+	background-color: rgba(255,229,238,1);
+	color: #eeeeee;
+	outline: none;
+}
+
+.contact-form input[type=text]:focus,
+.contact-form textarea:focus{
+	box-shadow: 0 0 8px rgba(255,255,255,.5) inset;
+}
+
+.contact-form textarea{
+	height: 150px;
+	resize: none;
+}
+
+.contact-form input[type=submit]{
+	display: block;font-size: 1.3rem;
+	width: 200px;
+	margin: 40px auto 0;
+	padding: 15px;
+	border: 1px solid rgba(219,112,147,1);
+	border-radius: 5px;
+	background-color: rgba(255,229,238,1);
+	color: rgba(170,170,170,1);
+	cursor: pointer;
+}
+
+.contact-form input[type=submit]:hover{
+	background-color: rgba(219,112,147,1);
+}
+
+
+.top-main-article{
+	width: 760px;
+	float: right;
+}
+
+/*　アサイド　*/
+
+.top-main-aside{
+	width: 320px;
+	float: left;
+}
+
+.top-aside-news{
+	margin-bottom: 30px;
+}
+
+.top-aside-title{
+	font-size: 2rem;
+	color: #db7093;
+	border-bottom: 1px #778899 solid;
+	padding: 10px 0 10px 10px;
+	font-family: 'M PLUS 1p', sans-serif;
+}
+
+.top-aside-title-top{
+	margin-bottom: 30px;
+}
+
+.top-aside-text{
+	font-size: 1.5rem;
+	padding: 10px 0 10px 10px;
+}
+
+
+time{
+	width: 30%;
+}
+
+.aside-text{
+	width: 70%;
+	padding-left: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.top-aside-text a:hover{
+	color: cornflowerblue;
+}
+
+.aside-content{
+	display: flex;
+	color: #66605f;
+	font-family: 'Zen Maru Gothic', sans-serif;
+	font-weight: medium;
+}
+
+.top-aside-categories{
+	font-size: 1.5rem;
+	padding: 20px 0 20px 10px;
+	font-family: 'Zen Maru Gothic', sans-serif;
+	border-bottom: 1px #778899 solid;
+}
+
+.top-aside-categories a{
+	color: #66605f;
+}
+
+
+.top-aside-categories a:hover{
+	color: cornflowerblue;
+}
+
+.aside-banner{
+	width: 320px;
+	padding-top: 30px;
+}
+
+/* フッター */
+footer{
+	width: 100%;
+	background: #fff0f5;
+}
+
+.footer-nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 30px 0 50px;
+}
+
+.footer-list{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.3rem;
+	font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.footer-item{
+	padding-right: 50px;
+	font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.footer-item a{
+	color: #789;
+	transition: 0.3s;
+}
+
+.footer-item a:hover{
+	color: #db7093;
+}
+
+.copyright{
+	text-align: center;
+}
+
