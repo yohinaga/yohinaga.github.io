@@ -278,9 +278,52 @@ box-shadow: 5px 6px 5px #c0c0c0
 	margin-bottom: 30px;
 }
 
+.arrows{
+	width: 960px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.prevew{
+	font-size: 20px;
+	display: block;
+	margin: 60px 0 0 30px;
+}
+
+.nextonly{
+	margin: 0 0 0 auto;
+}
+
+.next{
+	font-size: 20px;
+	display: block;
+	margin: 60px 0 0 30px;
+}
+
+.arrow{
+	width: 100px;
+	height: 8px;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	transform: skew(45deg);
+}
+
+.arrowleft{
+	width: 100px;
+	height: 8px;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	transform: skew(325deg);
+}
+
 /*2ページ目〜11ページ目共通　ここまで*/
 
 /*12ページ目*/
+
+.name{
+	margin-bottom: 30px;
+}
 
 span{
 	font-weight: bold;
@@ -306,7 +349,7 @@ span{
 }
 
 .myprofiletextbox{
-	margin-top: 170px;
+	margin-top: 130px;
 }
 
 .career{
